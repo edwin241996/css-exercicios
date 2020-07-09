@@ -1,0 +1,27 @@
+div {
+    width: 100%;
+    position: relative;
+    height: 233px;
+    background-color: gray;
+}
+button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 510px;
+    height: auto;
+    max-height: 0;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border: 0;
+    overflow: hidden;
+    transition: max-height 3s ease-in-out;
+}
+
+div:hover button {
+    max-height: 200vh;
+}
